@@ -1,0 +1,102 @@
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+        body {
+            color: #666;
+            background-color: #f8f8f8;
+            font-size: 14px;
+            font-family: 'Muli', sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            border-bottom: 1px solid #eaeaea;
+            margin: 20px 0;
+            padding: 20px 0;
+            color: #00aeff;
+            font-weight: 400;
+            font-size: 1.8em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #00aeff;
+        }
+
+        table {
+            width: 100%;
+        }
+
+            table tr td {
+                vertical-align: top;
+                padding: 12px 4px;
+                border-bottom: solid #eaeaea 1px;
+                text-align: left;
+                white-space: nowrap;
+            }
+
+                table tr td.left {
+                    width: 30%;
+                }
+
+        #container {
+            max-width: 800px;
+            min-width: 400px;
+            margin: 50px auto;
+        }
+
+        #box {
+            margin-bottom: 15px;
+            background-color: #fff;
+            -webkit-box-shadow: 1px 10px 5px -5px rgba(50, 50, 50, 0.05);
+            -moz-box-shadow: 1px 10px 5px -5px rgba(50, 50, 50, 0.05);
+            box-shadow: 1px 10px 5px -5px rgba(50, 50, 50, 0.05);
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+            #box .top {
+                margin-bottom: 50px;
+            }
+
+            #box .logo {
+                width: 150px;
+            }
+
+            #box .section {
+                margin: 40px 0px;
+            }
+
+            #box .section.more-spacing p {
+                margin: 30px 0;
+            }
+
+        #footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+            #footer p {
+                font-size: 0.8em;
+                color: #ccc;
+                font-weight: bold;
+            }
+
+            #footer .rob {
+                max-height: 50px;
+                filter: grayscale(100%);
+                opacity: 0.2;
+            }
+
+        .success {
+            color: #00b14b;
+        }
+
+        .failure {
+            color: #ff4743;
+        }
+    </style>
